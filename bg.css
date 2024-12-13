@@ -1,0 +1,33 @@
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+}
+.box1{
+    background-color: royalblue;
+    background-image: url('https://cdn.pixabay.com/photo/2024/10/30/13/53/woman-9161772_640.jpg');
+    /* float: left; */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box2{
+
+    /* float: left; */
+    background-image: url('https://cdn.pixabay.com/photo/2024/10/30/13/53/woman-9161772_640.jpg');
+    /* float: left; */
+    background-size: cover;
+}  
+.box3{
+    background-color: gold;
+    background-image: url(https://cdn.pixabay.com/photo/2023/11/12/16/26/car-8383398_640.jpg);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    /* width: 100px;
+    height: 200px; */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+
+}

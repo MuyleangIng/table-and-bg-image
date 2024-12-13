@@ -1,0 +1,32 @@
+table {
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+    text-align: center;
+}
+table, td , th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+/* hover on tr */
+
+thead{
+    background-color: green;
+    height: 2rem;
+}
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+tbody tr:hover {
+    background-color: #831c1c;
+}
+/* Adjust image size in table cells */
+table img {
+    width: 100%; Fit the width of the table cell
+    height: auto; Maintain aspect ratio
+    max-height: 100px; Optional: Limit the height
+    object-fit: cover; /* Optional: Cover the cell dimensions */
+}
